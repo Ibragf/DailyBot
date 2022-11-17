@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xyE8YP1I4vCZ/9icdIm3BXEB1Yo9tYNcBKINIqWEBjGzeKJIoLMX1mhz3XVbjkABe1Oib1OxTx/LBSoR4R06rg==",
+  "dgSpecHash": "mhLkcbdzMK8X/GnXn0gCFG5DLCTmKncYdt6ME+8m2YVZMYC4N+CAwROz6Vutvd1qx7zralktHX9C3ZJp5+3bNQ==",
   "success": true,
-  "projectFilePath": "D:\\Загрузки\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+  "projectFilePath": "D:\\GitDesktop\\DailyBot\\TelegramBot\\TelegramBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Гаджи\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\Гаджи\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",

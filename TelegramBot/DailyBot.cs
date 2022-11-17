@@ -100,22 +100,25 @@ namespace TelegramBot
 
         private async Task CheckNotificationsAsync()
         {
-            TimeSpan interval = new TimeSpan(0, 1, 0);
-            TimeSpan comparison = new TimeSpan(0, 16, 0);
-            while(true)
+            await Task.Run(async () =>
             {
-                foreach (var item in notificationList)
+                TimeSpan interval = new TimeSpan(0, 0, 30);
+                TimeSpan comparison = new TimeSpan(0, 16, 0);
+                while (true)
                 {
-                    if(DateTime.Now.Subtract(item.Date)<comparison)
+                    for(int i=0; i<notificationList.Count;i++)
                     {
-                        bot.SendTextMessageAsync(item.ChatId, $"Осталось {DateTime.Now.Subtract(item.Date).Minutes} минут до чего-то");
-                        notificationList.Remove(item);
+                        if (notificationList[i].Date.Subtract(DateTime.Now) < comparison)
+                        {
+                            await bot.SendTextMessageAsync(notificationList[i].ChatId, $"Осталось {notificationList[i].Date.Subtract(DateTime.Now).Minutes} минут до чего-то");
+                            notificationList.Remove(notificationList[i]);
+                            i--;
+                        }
                     }
+
+                    Thread.Sleep(interval);
                 }
-
-
-                Thread.Sleep(interval);
-            }
+            });
         }
 
         public void Start()

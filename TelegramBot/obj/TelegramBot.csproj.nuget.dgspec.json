@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Загрузки\\TelegramBot\\TelegramBot\\TelegramBot.csproj": {}
+    "D:\\GitDesktop\\DailyBot\\TelegramBot\\TelegramBot.csproj": {}
   },
   "projects": {
-    "D:\\Загрузки\\TelegramBot\\TelegramBot\\TelegramBot.csproj": {
+    "D:\\GitDesktop\\DailyBot\\TelegramBot\\TelegramBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Загрузки\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+        "projectUniqueName": "D:\\GitDesktop\\DailyBot\\TelegramBot\\TelegramBot.csproj",
         "projectName": "TelegramBot",
-        "projectPath": "D:\\Загрузки\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+        "projectPath": "D:\\GitDesktop\\DailyBot\\TelegramBot\\TelegramBot.csproj",
         "packagesPath": "C:\\Users\\Гаджи\\.nuget\\packages\\",
-        "outputPath": "D:\\Загрузки\\TelegramBot\\TelegramBot\\obj\\",
+        "outputPath": "D:\\GitDesktop\\DailyBot\\TelegramBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
